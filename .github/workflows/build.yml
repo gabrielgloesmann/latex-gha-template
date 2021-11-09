@@ -4,22 +4,21 @@ on:
     branches: [ main ]
 
 jobs:
-  build_latex:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Set up Git repository
-        uses: actions/checkout@v2
-      - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v2
-        with:
-          root_file: main.tex
-      - name: Upload artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: PDF
-          path: main.pdf
-      - name: Download a Build Artifact
-        uses: actions/download-artifact@v2.0.9
+      - uses: actions/checkout@v2
+
+      - name: Install texlive
+        run: sudo apt install texlive-base 
+      - name: Install texlive-latex-extra
+        run: sudo apt-get install texlive-latex-extra
+      - name: Build pdf
+        run: pdflatex my_awesome_cv.tex -o output/my_awesome_cv.pdf
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v3
         with: 
-          name: PDF 
-          path: /result
+          commit-message: pdflatex build
+          branch: pdflatex_build
+          title: '[CI] pdflatex build'
