@@ -13,18 +13,8 @@ jobs:
         with:
           root_file: main.tex
           compiler: pdflatex
-      - uses: actions/checkout@v2
-
-      - run: mkdir -p path/to/artifact
-
-      - run: echo hello > path/to/artifact/world.txt
-
-      - uses: actions/upload-artifact@v2
+      - name: Upload pdf as artifact
+        uses: actions/upload-artifact@v2
         with:
-          name: my-artifact
-          path: path/to/artifact/world.txt
-     # - name: Upload pdf as artifact
-     #   uses: actions/upload-artifact@v2
-     #   with:
-     #     name: main.pdf
-     #     path: main.pdf
+          name: PDF
+          path: main.pdf
