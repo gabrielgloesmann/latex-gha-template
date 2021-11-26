@@ -1,4 +1,4 @@
-# LateX Template
+# LateX GitHub Actions Template
 
 ## Introduction
 This project is a template for creating LateX documents in GitHub.
