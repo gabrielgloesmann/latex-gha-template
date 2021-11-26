@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.11.11)  11 NOV 2021 07:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.11.26)  26 NOV 2021 10:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -390,19 +390,12 @@ LaTeX Info: Redefining \nameref on input line 19.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-
-
-LaTeX Warning: Reference `fig:frog' on page 1 undefined on input line 40.
-
-<frog.jpg, id=23, 748.7975pt x 741.77126pt>
+<frog.jpg, id=56, 748.7975pt x 741.77126pt>
 File: frog.jpg Graphic file (type jpg)
 <use frog.jpg>
 Package pdftex.def Info: frog.jpg  used on input line 46.
 (pdftex.def)             Requested size: 133.07489pt x 131.8266pt.
-
-LaTeX Warning: Reference `tab:widgets' on page 1 undefined on input line 52.
-
-[1
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./frog.jpg>] [2]
 
@@ -415,28 +408,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 232689D72843F283B3EE1BBB7D69ECDC;910.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: C7DBFA2BE7EAAADB9C8103BD84A2E387;268
-(rerunfilecheck)             After:  232689D72843F283B3EE1BBB7D69ECDC;910.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
  ) 
 Here is how much of TeX's memory you used:
- 6917 strings out of 483183
- 103119 string characters out of 5966291
- 382260 words of memory out of 5000000
- 21794 multiletter control sequences out of 15000+600000
+ 6925 strings out of 483183
+ 103248 string characters out of 5966291
+ 382364 words of memory out of 5000000
+ 21802 multiletter control sequences out of 15000+600000
  538831 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  34i,8n,29p,483b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -453,10 +437,10 @@ c/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (3 pages, 239985 bytes).
+Output written on main.pdf (3 pages, 240746 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
+ 150 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
  20 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 102 words of extra memory for PDF output out of 10000 (max. 10000000)
 
